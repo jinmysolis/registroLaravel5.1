@@ -6,6 +6,14 @@
                 <div class="panel panel-default">
                     <div class="panel-heading">{{ trans('form.login.title') }}</div>
                     <div class="panel-body">
+                        
+                        
+                        @if(Session::has('alert'))
+                        <p class="alert alert-success">{{Session::get('alert')}}</p>
+                        @endif
+                        
+                        
+                        
                         {!! Form::open(['route' => 'auth/login', 'class' => 'form']) !!}
                             <div class="form-group">
                                 <label>{{ trans('form.label.email') }}</label>
