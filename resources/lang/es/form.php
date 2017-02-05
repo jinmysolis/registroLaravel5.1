@@ -13,7 +13,7 @@ return [
     */
 
     'login' => [
-    	'title'		=> 'Login',
+    	'title'		=> 'Entrar',
     	'submit'	=> 'Entrar',
     	''
     ],
@@ -31,7 +31,7 @@ return [
     ],
     	
     'label'	=> [
-    	'email'					=> 'Email',
+    	'email'					=> 'Correo',
     	'password'				=> 'Contraseña',
     	'password_confirmation' => 'Confirmar contraseña',
     	'remember'				=> 'Recuerdame',

@@ -13,7 +13,7 @@ return [
     */
 
     'login' => [
-    	'title'		=> 'Login',
+    	'title'		=> 'inicioooooooooooooooooooo',
     	'submit'	=> 'Login',
     	''
     ],

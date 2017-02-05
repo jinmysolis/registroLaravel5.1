@@ -12,7 +12,7 @@ return [
     |
     */
 
-   	'login'		=> 'Login',
+   	'login'		=> 'Entrar',
    	'signup'	=> 'Registro',
    	'logout'    => 'Salir'
  	
